@@ -1,6 +1,6 @@
 {
   "name": "MDSM",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "MDSM (Male DeepSeek Mascot) appearance layer for the DeepSeek Harness web GUI: wears the bundled mascot character as the GUI background (surface-token fade with opacity, blur, scrim and position controls), seats the matching square avatar as the sidebar and conversation brand mark, and edits it all from a Settings section.",
   "type": "module",
   "license": "MIT",
