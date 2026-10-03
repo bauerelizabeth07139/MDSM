@@ -1,6 +1,6 @@
 {
   "name": "MDSM",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "MDSM (Male DeepSeek Mascot) appearance layer for the DeepSeek Harness web GUI: wears the bundled mascot character as the GUI background (surface-token fade with opacity, blur, scrim and position controls), seats the matching square avatar as the sidebar and conversation brand mark, and edits it all from a Settings section.",
   "type": "module",
   "license": "MIT",
@@ -20,6 +20,7 @@
     },
     "./client": "./lib/client.js",
     "./cordis.patch.yml": "./cordis.patch.yml",
+    "./locale/*.json": "./locale/*.json",
     "./package.json": "./package.json"
   },
   "files": [
@@ -27,7 +28,8 @@
     "assets",
     "cordis.patch.yml",
     "README.md",
-    "LICENSE"
+    "LICENSE",
+    "locale"
   ],
   "engines": {
     "node": ">=22",
@@ -65,6 +67,9 @@
     "identity",
     "主题",
     "壁纸",
-    "MDSM"
-  ]
+    "MDSM",
+    "appearance",
+    "美化"
+  ],
+  "icon": "./assets/MDSM-mark.jpg"
 }
